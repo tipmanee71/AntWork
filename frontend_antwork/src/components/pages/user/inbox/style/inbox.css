@@ -1,0 +1,155 @@
+.chat__box {
+    display: flex;
+    /* max-height: 1vh; */
+    max-height: 91vh;
+    /* max-height: 100vh; */
+    /* height: 100%; */
+    /* overflow: auto; */
+    /* width: 100%; */
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
+}
+
+.user__box {
+    flex: 0 0 30%;
+    border-right: 1px solid #CFD3D7;
+    max-width: 300px;
+    min-width: 150px;
+    overflow: auto;
+}
+
+.user__item {
+    display: flex;
+    padding: 15px;
+    border-bottom: 1px solid #CFD3D7;
+    align-items: center;
+    cursor: pointer;
+    /* border-top: 1px solid #dddddd; */
+}
+
+.user__item:focus,
+.user__item:hover {
+    background-color: #e6e6e6;
+    text-decoration: none;
+    color: #000000;
+}
+
+.user__item.active {
+    background-color: #e6e6e6;
+}
+
+.active.unread::after {
+    background: transparent;
+}
+
+.unread::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #007afe;
+    border-radius: 100%;
+    margin-left: auto;
+}
+
+.user__img {
+    /* background-image: ; */
+    background-color: #999999;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+
+.user__name {
+    color: #000000;
+}
+
+.conver__box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-right: 1px solid #CFD3D7;
+    overflow: hidden;
+}
+
+.conver__header {
+    padding: 15px;
+    border-bottom: 1px solid #CFD3D7;
+}
+
+.conver__main {
+    padding: 15px;
+    border-bottom: 1px solid #CFD3D7;
+    overflow: auto;
+    height: 100vh;
+}
+
+.conver__item {
+    margin-bottom: 10px;
+}
+
+.admin {
+    text-align: right;
+}
+
+.admin>.conver__list {
+    background-color: #007afe;
+    color: #ffffff;
+}
+
+.conver__list {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 20px;
+    max-width: 250px;
+    background-color: #eeeeee;
+}
+
+.conver__input {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.conver__field {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-right: 1px solid #CFD3D7;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+
+.css-1bt7l9o {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+textarea {
+    font-family: "Poppins", "Kanit", sans-serif !important;
+    font-size: medium;
+}
+
+/* body { */
+    /* height: 0%; */
+    /* width: 100%; */
+    /* overflow: hidden; */
+    /* margin: 0;
+    height: 100%; */
+/* } */
+
+
+body #inboxPage {
+    height: 0%;
+    /* width: 100%; */
+    overflow: hidden;
+    /* margin: 0;
+    height: 100%; */
+}

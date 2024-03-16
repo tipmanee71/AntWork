@@ -1,0 +1,18 @@
+.dropzone{
+    background-color: ghostwhite;
+    border-radius: 5px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.thumb {
+    border-radius: 2;
+    padding: 4px;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow: 0 1px 10px rgb(138, 137, 137);
+};

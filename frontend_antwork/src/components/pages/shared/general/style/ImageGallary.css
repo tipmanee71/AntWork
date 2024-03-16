@@ -1,0 +1,19 @@
+.carousel .thumbs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .carousel .thumbs-wrapper {
+    justify-content: center;
+} */
+
+/* ul .thumbs {
+    padding-inline-start: 0px;
+} */
+
+ul {
+    padding-inline-start: 0px;
+}
+
+

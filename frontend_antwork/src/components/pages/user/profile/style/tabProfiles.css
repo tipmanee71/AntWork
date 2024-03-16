@@ -1,0 +1,9 @@
+.MuiTabs-flexContainer {
+    margin-top: 50px;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.MuiBox-root MuiBox-root-13 {
+    padding: 0px !important;
+}
