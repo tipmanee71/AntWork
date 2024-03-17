@@ -62,7 +62,7 @@ import CompanySignUp from "./components/pages/signup/singupCompany";
 import JobGroupDetail from "./components/pages/temporary/"
 
 //company 
-import CompanyManagePage from "./components/pages/company-manage/index"
+import CompanyManagePage from "./components/pages/company-manage/index";
 import createWork from "./components/pages/seller/createWork";
 
 const useStyles = makeStyles((theme) => ({
@@ -214,7 +214,7 @@ const Routers = () => {
 
 
            {/* company */}
-          
+          <Route exact path="/company/singup" component={CompanySignUp}/>
           <Route exact path="/company_manage" component={CompanyManagePage}/>
           <Route exact path="/seller_homepage" component={SellerHomePage} />
           <Route exact paath="/seller_creatework" component={createWork}/>
